@@ -10,7 +10,7 @@ struct Cli {
     path: std::path::PathBuf,
 }
 
-fn main() -> Result<(), ExitFailure> {
+fn main() {
     let args = Cli::from_args();
 
     // opening the file we got
