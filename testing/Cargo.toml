@@ -5,3 +5,5 @@ authors = ["Prometeo <xairi.valdivia@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+assert_cmd = "0.10"
+predicates = "1"
